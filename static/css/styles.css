@@ -1,0 +1,94 @@
+  * { 
+    padding: 0;  /*reinicia estilos del navegador*/
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    text-transform: capitalize; /* Primer letra mauscul*/
+  }
+
+  header {
+    background-color: #333;
+    color: #d80909;
+    padding: 20px;
+  }
+
+  .main {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+  }
+  
+  .main-menu{
+    background-color: bisque;
+    width: 300px;
+    justify-self: left;
+    display: inline-block;
+  }
+
+
+  .main-container{
+    width: auto;
+    display: inline-block;
+    padding: 20px 50px;
+
+  }
+
+  .main-menu{
+  padding: 10px 10px;
+
+  }
+  
+  h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #d80909;
+  }
+  
+  nav {
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+
+  footer {
+    color: bisque;
+    background-color: #24262b;
+  
+    height: 100px;
+  }
