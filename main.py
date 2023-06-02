@@ -6,9 +6,9 @@ app=Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/')
-def hello():
-    return 'Hola mundo' 
+@app.route('/clientes')
+def clientes():
+    return render_template('clientes.html') 
 
 if __name__=='__main__':
    app.run(debug=True)
